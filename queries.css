@@ -1,0 +1,342 @@
+/* ******************** */
+/* BELOW 1360PX (Smaller desktops) */
+/* ******************** */
+
+@media (max-width: 85em) {
+  .about-container1-list-items span {
+    font-size: 1.6rem;
+  }
+  .question-box-heading {
+    margin-bottom: 4.8rem;
+  }
+}
+
+/* ******************** */
+/* BELOW 1296PX (Smaller desktops) */
+/* ******************** */
+
+@media (max-width: 81em) {
+  .primary-heading {
+    font-size: 4.4rem;
+  }
+  .hero-description {
+    font-size: 2rem;
+  }
+  .hero-img {
+    width: 80%;
+  }
+
+  .header {
+    padding: 3.2rem 6.4rem 0rem 6.4rem;
+  }
+  .hero {
+    padding: 0 4.8rem 9.6rem 4.8rem;
+  }
+  .section {
+    padding: 4.8rem 6.4rem;
+    padding-top: 9.6rem;
+    padding-bottom: 9.6rem;
+  }
+}
+/* ******************** */
+/* BELOW 1200PX (Smaller desktops) */
+/* ******************** */
+@media (max-width: 75em) {
+  html {
+    font-size: 9px;
+  }
+  .secondary-heading {
+    font-size: 3.2rem;
+  }
+  .primary-heading {
+    font-size: 4rem;
+  }
+  .map {
+    width: 96%;
+  }
+}
+
+/* ******************** */
+/* BELOW 1104PX (Smaller desktops) */
+/* ******************** */
+@media (max-width: 69em) {
+  .header {
+    padding: 1.8rem 3.2rem 0rem 3.2rem;
+  }
+  .hero {
+    padding: 0 4.8rem 4.8rem 4.8rem;
+  }
+
+  .card-group {
+    flex-direction: column;
+  }
+}
+/* ******************** */
+/* BELOW 1000PX (Smaller desktops) */
+/* ******************** */
+@media (max-width: 62.5em) {
+  .bi.active {
+    display: block;
+  }
+  .nav {
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    position: absolute;
+    margin: 0 auto;
+    top: 8rem;
+    left: 0;
+    right: 0;
+    width: 90%;
+    padding-bottom: 6rem;
+    background: #fff;
+    z-index: 1000;
+    border-radius: 10px;
+    /* temporary */
+    opacity: 0;
+    pointer-events: none;
+    transition: 0.3s ease;
+  }
+  .nav-link {
+    color: #37517e !important;
+    margin-left: 3rem;
+  }
+  .nav-link:first-child {
+    margin-top: 2rem;
+  }
+  .nav-link:last-child {
+    padding-right: calc(100% - 16rem);
+  }
+  .header {
+    padding: 1.8rem 4.8rem 0rem 4.8rem;
+  }
+  .nav-open .bi-list {
+    display: none;
+  }
+  .nav-open .bi-x {
+    display: block;
+  }
+  .bi-x {
+    display: none;
+  }
+  .bi-list {
+    display: block;
+  }
+  .nav-open .nav {
+    opacity: 1;
+    pointer-events: all;
+  }
+  .hero {
+    flex-direction: column-reverse;
+    padding: 0 4.8rem 4.8rem 4.8rem;
+  }
+  .hero-text-box {
+    align-items: center;
+  }
+  .hero-img {
+    width: 45%;
+  }
+  .hero-heading {
+    font-size: 4.8rem;
+    margin-bottom: 2.4rem;
+  }
+  .hero-description {
+    font-size: 2.4rem;
+    margin-bottom: 2.4rem;
+  }
+  .container {
+    grid-template-columns: repeat(3, 1fr);
+    row-gap: 4rem;
+  }
+
+  .feature-client img {
+    height: 4rem;
+  }
+  .section-about {
+    padding-top: 9.6rem;
+    padding-bottom: 9.6rem;
+  }
+  .about-container {
+    flex-direction: column;
+  }
+  .about-container1-para {
+    margin-bottom: 0;
+  }
+  .about-container1-list {
+    margin-bottom: 2.4rem;
+  }
+  .section-whyus {
+    flex-direction: column-reverse;
+    padding-top: 9.6rem;
+    padding-bottom: 9.6rem;
+  }
+  .whyus-img {
+    width: 50%;
+  }
+  .section-skill {
+    flex-direction: column;
+    padding-top: 9.6rem;
+    padding-bottom: 9.6rem;
+  }
+  .skill-img-box {
+    justify-content: center;
+    margin-bottom: 3.2rem;
+  }
+  .skill-img {
+    width: 50%;
+  }
+
+  .pricing-cards {
+    flex-direction: column;
+  }
+  .pricing-card {
+    padding: 8rem;
+  }
+  .pricing-card-heading {
+    font-size: 3.2rem;
+    margin-bottom: 3.2rem;
+  }
+  .pricing-card-price {
+    font-size: 4.4rem;
+  }
+  .pricing-card-para {
+    font-size: 2.4rem;
+    margin-bottom: 2.4rem;
+  }
+  .pricing-card-text {
+    font-size: 1.8rem;
+  }
+  .pricing-card-icon {
+    font-size: 3.2rem;
+  }
+  .contact-container {
+    flex-direction: column;
+  }
+  .location {
+    width: 100%;
+    align-items: flex-start;
+  }
+  .location-heading {
+    font-size: 2.4rem;
+  }
+  .map {
+    margin-top: 2.4rem;
+    width: 100%;
+  }
+  .form-div {
+    width: 100%;
+  }
+}
+/* ******************** */
+/* BELOW 900PX (Smaller desktops) */
+/* ******************** */
+@media (max-width: 56.5em) {
+  .members {
+    grid-template-columns: 1fr;
+  }
+  .footer {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .col-address {
+    grid-row: 2;
+  }
+}
+/* ******************** */
+/* BELOW 750PX (Smaller desktops) */
+/* ******************** */
+@media (max-width: 47em) {
+  .container {
+    grid-template-columns: repeat(2, 1fr);
+    justify-items: center;
+    align-items: center;
+    padding: 2.8rem 4.8rem;
+  }
+  .joinus-form {
+    min-width: 35rem;
+  }
+  .service-cards {
+    flex-direction: column;
+  }
+  .cta {
+    flex-direction: column;
+    gap: 3.2rem;
+  }
+  .cta-heading,
+  .cta-para {
+    text-align: center;
+  }
+  .section-copyright {
+    padding: 3.2rem;
+  }
+}
+
+/* ******************** */
+/* BELOW 600PX (Smaller desktops) */
+/* ******************** */
+@media (max-width: 37.5em) {
+  .pricing-card {
+    padding: 4.8rem;
+  }
+  .hero-img,
+  .whyus-img,
+  .skill-img {
+    width: 60%;
+  }
+}
+/* ******************** */
+/* BELOW 500PX (Smaller desktops) */
+/* ******************** */
+@media (max-width: 31.5em) {
+  .header {
+    padding: 1.8rem;
+    padding-bottom: 0;
+  }
+  .hero-img,
+  .whyus-img,
+  .skill-img {
+    width: 70%;
+  }
+  .hero {
+    padding: 0 1.8rem 3.6rem 1.8rem;
+  }
+  .hero-heading {
+    font-size: 4rem;
+  }
+  .container {
+    padding: 3.2rem 2.4rem;
+  }
+  .members {
+    gap: 1.8rem;
+  }
+  .section {
+    padding: 9.6rem 3.2rem;
+  }
+  .pricing-card {
+    padding: 2.4rem;
+  }
+  .section-copyright {
+    flex-direction: column;
+    gap: 2rem;
+  }
+  .container {
+    padding: 3.2rem 0;
+  }
+  .feature-client img {
+    height: 4rem;
+  }
+  .footer {
+    grid-template-columns: 1fr;
+    /* justify-items: center; */
+  }
+}
+@media (min-width: 85em) {
+  .grid-col--2,
+  .grid-col--3 {
+    display: block;
+  }
+}
+@media (min-width: 31.5em) {
+  .grid-col--2 {
+    display: block;
+  }
+}
